@@ -2,6 +2,12 @@
 
 A simple Express.js server that fetches weather data from the Visual Crossing Weather API and caches the results using Redis. This project implements rate limiting to control API usage and handles requests efficiently.
 
+WEATHER API. More info can be found here: https://roadmap.sh/projects/weather-api-wrapper-service
+
+## Description
+
+In this project, instead of relying on our own weather data, we will build a weather API that fetches and returns weather data from a 3rd party API. This project will help you understand how to work with 3rd party APIs, caching, and environment variables.
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -9,6 +15,7 @@ A simple Express.js server that fetches weather data from the Visual Crossing We
 - [API Endpoints](#api-endpoints)
 - [Environment Variables](#environment-variables)
 - [Rate Limiting](#rate-limiting)
+- [License](#license)
 
 ## Installation
 
